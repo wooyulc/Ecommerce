@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "E commerce application built with MERN stacks",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooyulc/Ecommerce.git"
+  },
+  "author": "Wooyulc_dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wooyulc/Ecommerce/issues"
+  },
+  "homepage": "https://github.com/wooyulc/Ecommerce#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
